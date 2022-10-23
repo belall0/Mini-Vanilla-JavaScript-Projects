@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider || Swiper</title>
+    <!--web fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Swiper's Stylesheet-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="styles/swiper.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="header-center">
+        <h1>Image Slider</h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">VanillaJS</a></li>
+            <li><a href="./swiper.html">Swiper</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--Swiper container-->
+      <div class="swiper">
+        <!--Slides Container-->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/01.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/02.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/03.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/04.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/05.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/06.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/07.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/08.jpg" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/09.jpg" />
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <!--Swiper Buttons-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </main>
+
+    <!--Swiper's JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--External JS-->
+    <script src="./javascript/swiper.js"></script>
+  </body>
+</html>

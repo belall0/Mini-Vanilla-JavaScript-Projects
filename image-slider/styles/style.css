@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f1f5f8;
+  letter-spacing: 0.25rem;
+}
+
+header {
+  background-color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+.header-center {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-center h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: dodgerblue;
+}
+
+.header-center ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.header-center li {
+  margin-left: 2rem;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header-center a:hover {
+  color: dodgerblue;
+}
+
+/*Main*/
+
+.image-slider {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  display: none;
+}
+
+.active {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  display: block;
+  border-radius: 1rem;
+}
+
+/*btns*/
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 1.7rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: dodgerblue;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.prev {
+  margin-right: 2rem;
+}
+
+.btn:disabled {
+  background-color: #666666;
+  cursor: not-allowed;
+}
